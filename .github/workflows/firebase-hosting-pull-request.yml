@@ -13,5 +13,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ONLINEBANKINGBUSINESSAPI }}'
-          projectId: onlinebankingbusinessapi
+          firebaseServiceAccount: >-
+            ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ONLINEBANKINGAPPLICATION_6E54E
+            }}
+          projectId: onlinebankingapplication-6e54e
